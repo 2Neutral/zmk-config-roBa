@@ -78,8 +78,8 @@
             bindings = <
 &kp N1     &kp N2              &kp N3              &kp N4               &kp N5                             &kp N6     &kp N7          &kp N8          &kp N9           &kp N0
 &kp TAB    &none               &kp LG(UP_ARROW)    &none                &none      &none         &none     &none      &mkp MB1        &kp UP_ARROW    &none            &mkp MB2
-&kp LSHFT  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none      &none         &none     &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&kp LCTRL  &kp LALT            &kp LGUI            &kp DELETE           &kp SPACE  &mkp MB1      &kp BSPC  &kp ENTER                                                   &kp EQUAL
+&kp LSHFT  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none      &none         &none     &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
+&kp LCTRL  &kp LALT            &kp LGUI            &kp DELETE           &kp SPACE  &mkp MB1      &kp BSPC  &kp SPACE                                                   &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -87,8 +87,8 @@
 
         NUM {
             bindings = <
-&kp ESCAPE                  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH                                        &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TAB                     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LS(LG(LC(S)))      &kp MINUS   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&kp SLASH                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                                     &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp MINUS                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &kp LS(LG(LC(S)))      &kp MINUS   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp COMMA              &kp PERIOD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &mt RIGHT_SHIFT NON_US_BACKSLASH
 &kp LCTRL                   &kp LALT         &kp LGUI         &kp DELETE       &kp SPACE     &mkp MB1               &kp BSPC    &kp SPACE                                                                  &kp PIPE
             >;
@@ -122,8 +122,8 @@
             bindings = <
 &kp F1     &kp F2    &kp F3    &kp F4  &kp F5                                             &kp F6     &kp F7  &kp F8  &kp F9  &kp F10
 &kp TAB    &trans    &trans    &trans  &trans          &trans              &trans         &trans     &trans  &trans  &trans  &trans
-&kp LSHFT  &trans    &trans    &trans  &trans          &trans              &trans         &trans     &trans  &trans  &trans  &trans
-&kp LCTRL  &kp LALT  &kp LGUI  &none   &kp LANGUAGE_1  &kp LANGUAGE_2      &kp BACKSPACE  &kp SPACE                          &trans
+&kp LSHFT  &trans    &trans    &trans  &trans          &trans              &trans         &trans     &trans  &trans  &trans  &kp RIGHT_SHIFT
+&kp LCTRL  &kp LALT  &kp LGUI  &none   &kp LANGUAGE_1  &kp LANGUAGE_2      &kp BACKSPACE  &kp SPACE                          &none
             >;
         };
 
