@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp SLASH                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                                     &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp MINUS                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &kp LS(LG(LC(S)))      &kp MINUS   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp COMMA              &kp PERIOD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &mt RIGHT_SHIFT NON_US_BACKSLASH
-&kp LCTRL                   &kp LALT         &kp LGUI         &kp DELETE       &kp SPACE     &mkp MB1               &kp BSPC    &kp SPACE                                                                  &kp PIPE
+&kp SLASH  &kp N7    &kp N8    &kp N9      &kp ASTERISK                                     &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp MINUS  &kp N4    &kp N5    &kp N6      &kp PLUS      &kp LS(LG(LC(S)))      &kp MINUS   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&kp N0     &kp N1    &kp N2    &kp N3      &kp EQUAL     &kp COMMA              &kp PERIOD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &mt RIGHT_SHIFT NON_US_BACKSLASH
+&kp LCTRL  &kp LALT  &kp LGUI  &kp DELETE  &kp SPACE     &mkp MB1               &kp BSPC    &kp SPACE                                                                  &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
